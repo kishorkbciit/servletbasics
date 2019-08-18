@@ -1,0 +1,39 @@
+19-Aug-2019 03:00:00.364 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.22
+19-Aug-2019 03:00:00.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2019 14:20:06 UTC
+19-Aug-2019 03:00:00.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.22.0
+19-Aug-2019 03:00:00.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+19-Aug-2019 03:00:00.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14
+19-Aug-2019 03:00:00.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+19-Aug-2019 03:00:00.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre
+19-Aug-2019 03:00:00.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_222-b10
+19-Aug-2019 03:00:00.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            AdoptOpenJDK
+19-Aug-2019 03:00:00.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/kishor/Documents/apache-tomcat-9.0.22
+19-Aug-2019 03:00:00.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/kishor/Documents/apache-tomcat-9.0.22
+19-Aug-2019 03:00:00.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/kishor/Documents/apache-tomcat-9.0.22/conf/logging.properties
+19-Aug-2019 03:00:00.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Aug-2019 03:00:00.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Aug-2019 03:00:00.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Aug-2019 03:00:00.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Aug-2019 03:00:00.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Aug-2019 03:00:00.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/kishor/Documents/apache-tomcat-9.0.22
+19-Aug-2019 03:00:00.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/kishor/Documents/apache-tomcat-9.0.22
+19-Aug-2019 03:00:00.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/kishor/Documents/apache-tomcat-9.0.22/temp
+19-Aug-2019 03:00:00.379 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/kishor/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+19-Aug-2019 03:00:00.667 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Aug-2019 03:00:00.705 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Aug-2019 03:00:00.708 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [563] milliseconds
+19-Aug-2019 03:00:00.733 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Aug-2019 03:00:00.733 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.22]
+19-Aug-2019 03:00:00.743 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kishor/Documents/apache-tomcat-9.0.22/webapps/docs]
+19-Aug-2019 03:00:00.975 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kishor/Documents/apache-tomcat-9.0.22/webapps/docs] has finished in [232] ms
+19-Aug-2019 03:00:00.975 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kishor/Documents/apache-tomcat-9.0.22/webapps/manager]
+19-Aug-2019 03:00:01.010 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kishor/Documents/apache-tomcat-9.0.22/webapps/manager] has finished in [35] ms
+19-Aug-2019 03:00:01.010 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kishor/Documents/apache-tomcat-9.0.22/webapps/examples]
+19-Aug-2019 03:00:01.289 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kishor/Documents/apache-tomcat-9.0.22/webapps/examples] has finished in [279] ms
+19-Aug-2019 03:00:01.290 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kishor/Documents/apache-tomcat-9.0.22/webapps/ROOT]
+19-Aug-2019 03:00:01.302 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kishor/Documents/apache-tomcat-9.0.22/webapps/ROOT] has finished in [12] ms
+19-Aug-2019 03:00:01.303 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kishor/Documents/apache-tomcat-9.0.22/webapps/host-manager]
+19-Aug-2019 03:00:01.319 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kishor/Documents/apache-tomcat-9.0.22/webapps/host-manager] has finished in [16] ms
+19-Aug-2019 03:00:01.322 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Aug-2019 03:00:01.328 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-Aug-2019 03:00:01.330 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [621] milliseconds
