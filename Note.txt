@@ -24,7 +24,7 @@ Replace below tag:
   <user username="root" password="root" roles="tomcat,manager-status,manager-gui"/>
 </tomcat-users>
 
-After edit the file login in tomcat.
+After edit the file need to be restart the tomcat and login on tomcat.
 
 user-id: root
 
