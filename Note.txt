@@ -1,6 +1,16 @@
 Setup 1:
 
-Set tomcat user login 
+Run the tomcat:
+
+go the dir:
+
+cd apache-tomcat-9.0.22/bin
+
+after that execute below command:
+
+sh catalina.sh start
+
+After that set tomcat user login 
 
 Add tomcat user in file tomcat-users.xml
 
