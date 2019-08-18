@@ -14,8 +14,28 @@ Replace below tag:
   <user username="root" password="root" roles="tomcat,manager-status,manager-gui"/>
 </tomcat-users>
 
+After edit the file login in tomcat.
+
+user-id: root
+
+password: root
+
 Setup 2:
 
 Create the Hello.class execute below command:
 
 javac -cp "/Users/kishor/Documents/codebase/servletbasics/javax.servlet-3.0.jar" Hello.java
+
+Setup 3:
+
+How to create .war file
+
+move to path:
+
+cd my-app
+
+run below command:
+
+jar -cvf my-app.war *
+
+deploy the created .war file on tomcat
