@@ -38,6 +38,8 @@ javac -cp "/Users/kishor/Documents/codebase/servletbasics/javax.servlet-3.0.jar"
 
 Setup 3:
 
+Servlet App foler name is my-app
+
 How to create .war file
 
 move to path:
