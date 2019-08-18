@@ -1,0 +1,21 @@
+Setup 1:
+
+Set tomcat user login 
+
+Add tomcat user in file tomcat-users.xml
+
+file path: apache-tomcat-9.0.22/conf/tomcat-users.xml
+
+Replace below tag:
+
+<tomcat-user>
+  <role rolename="manager-status"/>
+  <role rolename="manager-gui"/>
+  <user username="root" password="root" roles="tomcat,manager-status,manager-gui"/>
+</tomcat-users>
+
+Setup 2:
+
+Create the Hello.class execute below command:
+
+javac -cp "/Users/kishor/Documents/codebase/servletbasics/javax.servlet-3.0.jar" Hello.java
